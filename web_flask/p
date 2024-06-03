@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-chmod u+x *.py
+chmod 755 *.py
