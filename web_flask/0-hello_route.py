@@ -1,5 +1,9 @@
 #!/usr/bin/pyhton3
-"""Hello Flask! (Task 0)"""
+"""Hello Flask! (Task 0)
+
+make server visible across all networks
+listen on 0.0.0.0:5000
+"""
 
 from flask import Flask
 
@@ -13,5 +17,4 @@ def hello_hbnb():
 
 
 if __name__ == "__main__":
-    # make server visible across all networks
     app.run(port=5000, host='0.0.0.0')
